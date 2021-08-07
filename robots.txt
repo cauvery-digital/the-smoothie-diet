@@ -4,6 +4,7 @@ Disallow:
 User-agent: *
 Disallow:/terms.html
 Disallow:/privacy.html
+Disallow:/elements.html
 Allow: /index.html
 Allow: /about.html
 Allow: /services.html
