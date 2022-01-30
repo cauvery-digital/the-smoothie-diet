@@ -10,4 +10,4 @@ Allow: /about.html
 Allow: /services.html
 Allow: /contact.html
 
-Sitemap: https://atlashealthline.online/sitemap.xml
+Sitemap: https://atlashealthline.netlify.app/sitemap.xml
