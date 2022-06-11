@@ -155,15 +155,15 @@ p {
 }
 
 .bg-img-1 {
-	background-image: url(../img/slider/slider-img-1.jpg)
+	background-image: none
 }
 
 .bg-img-2 {
-	background-image: url(../img/background-img/bg-img-2.jpg)
+	background-image: none
 }
 
 .cta-bg-1 {
-	background-image: url(../img/background-img/bg-img-3.jpg)
+	background-image: none
 }
 
 .img {
@@ -5389,15 +5389,15 @@ hr {
 }
 
 .breadcam_bg {
-	background-image: url(../img/banner/bradcam.png.webp)
+	background-image: none
 }
 
 .breadcam_bg_1 {
-	background-image: url(../img/banner/bradcam2.png.webp)
+	background-image: none
 }
 
 .breadcam_bg_2 {
-	background-image: url(../img/banner/bradcam3.png.webp)
+	background-image: none
 }
 
 .bradcam_area {
