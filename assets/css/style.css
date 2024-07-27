@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"); */
+@import url('../fonts/poppins/style.css');
 .white-bg {
 	background: #ffffff
 }
@@ -455,6 +456,8 @@ hr {
 
 .header-btn {
 	background: #5AAC4E;
+	color: #000;
+	font-weight: 400;
 	padding: 23px 17px
 }
 
@@ -2552,10 +2555,10 @@ hr {
 
 .header-area .main-header .main-menu ul li a {
 	color: #112957;
-	font-weight: 400;
+	font-weight: 500;
 	padding: 29px 27px;
 	display: block;
-	font-size: 16px;
+	font-size: 18px;
 	-webkit-transition: .3s;
 	-moz-transition: .3s;
 	-o-transition: .3s;
@@ -2565,7 +2568,9 @@ hr {
 	font-family: "Poppins", sans-serif;
 	text-decoration: underline #fff transparent
 }
-
+.active {
+	color: #800080 !important; 
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.header-area .main-header .main-menu ul li a {
 		padding: 29px 15px
@@ -2574,7 +2579,7 @@ hr {
 
 .header-area .main-header .main-menu ul li:hover>a {
 	color: #5AAC4E;
-	text-decoration: underline
+	text-decoration: none
 }
 
 .header-area .main-header .main-menu ul ul.submenu {
@@ -3895,17 +3900,21 @@ hr {
 	border: 0;
 	border-radius: 0 0 0 20px;
 	background: #fff;
-	color: rgba(35, 72, 33, 0.5);
+	color: #21302080;
 	text-align: center;
-	font-size: 14px
+	font-size: 16px
 }
-
+.footer-area .footer-form form input::placeholder{
+	font-weight: 500;
+	color: #176317;
+}
 .footer-area .footer-form form .form-icon button {
 	border: 0;
 	border-radius: 0 0 0 20px;
 	cursor: pointer;
 	padding: 17px 22px;
-	background: #5AAC4E;
+	background: #21471F;
+	font-weight: 500;
 	line-height: 1;
 	width: 100%;
 	display: block;
@@ -4531,7 +4540,7 @@ hr {
 }
 
 .blog-info-link li a {
-	color: #999999
+	color: black
 }
 
 .blog-info-link li i,
@@ -4632,14 +4641,14 @@ hr {
 	height: 50px;
 	border-color: #f0e9ff;
 	font-size: 13px;
-	color: #999999;
+	color: black;
 	padding-left: 20px;
 	border-radius: 0;
 	border-right: 0
 }
 
 .blog_right_sidebar .search_widget .form-control::placeholder {
-	color: #999999
+	color: black
 }
 
 .blog_right_sidebar .search_widget .form-control:focus {
@@ -4663,20 +4672,20 @@ hr {
 
 .blog_right_sidebar .search_widget .input-group button span {
 	font-size: 14px;
-	color: #999999
+	color: black
 }
 
 .blog_right_sidebar .newsletter_widget .form-control {
 	height: 50px;
 	border-color: #f0e9ff;
 	font-size: 13px;
-	color: #999999;
+	color: black;
 	padding-left: 20px;
 	border-radius: 0
 }
 
 .blog_right_sidebar .newsletter_widget .form-control::placeholder {
-	color: #999999
+	color: black
 }
 
 .blog_right_sidebar .newsletter_widget .form-control:focus {
@@ -4943,7 +4952,7 @@ hr {
 .single-post-area .navigation-top .social-icons li i,
 .single-post-area .navigation-top .social-icons li span {
 	font-size: 14px;
-	color: #999999
+	color: black
 }
 
 .single-post-area .blog-author {
@@ -5141,7 +5150,7 @@ hr {
 
 .comments-area .date {
 	font-size: 14px;
-	color: #999999;
+	color: black;
 	margin-bottom: 0;
 	margin-left: 20px
 }
@@ -5215,7 +5224,7 @@ hr {
 
 .comment-form .form-control::placeholder {
 	font-weight: 300;
-	color: #999999
+	color: black
 }
 
 .comment-form .form-control::placeholder {
@@ -5315,7 +5324,7 @@ hr {
 
 .form-contact .form-control::placeholder {
 	font-weight: 300;
-	color: #999999
+	color: black
 }
 
 .form-contact textarea {
